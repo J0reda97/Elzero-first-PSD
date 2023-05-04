@@ -279,6 +279,7 @@ header h2 {
 }
 
 #about .img {
+    margin:auto;
         width: 250px;
     position: relative;
 }

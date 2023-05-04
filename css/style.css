@@ -424,6 +424,10 @@ footer span {
         margin: 0;
     }
 
+        #services .service-container {
+        padding: 0;
+        margin: 0;
+    }
     #services .service-container .col {
         width: 60%;
         margin: 50px auto;

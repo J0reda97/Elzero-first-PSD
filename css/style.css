@@ -472,6 +472,16 @@ footer span {
         color: var(--darkcolor);
         font-size: 16px;
     }
+    
+        footer {
+
+        font-size: 14px;
+    }
+
+    footer span {
+
+        font-size: 16px;
+    }
 }
 
 /* Scroll */

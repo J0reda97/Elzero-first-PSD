@@ -279,6 +279,7 @@ header h2 {
 }
 
 #about .img {
+    margin: auto;
     width: 250px;
     position: relative;
 }
@@ -451,6 +452,10 @@ footer span {
     #portfolio .card {
         width: 60%;
         margin: 25px auto;
+    }
+
+    #about .img {
+        width: 250px !important;
     }
 
     #about .about-container .text p {

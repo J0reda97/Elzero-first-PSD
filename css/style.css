@@ -437,8 +437,28 @@ footer span {
         width: 60%;
         margin: 25px auto;
     }
+}
 
+/* Scroll */
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #F6F6F6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--darkcolor);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--maincolor);
 }
 
 

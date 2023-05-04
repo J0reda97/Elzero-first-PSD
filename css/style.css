@@ -197,8 +197,8 @@ header h2 {
     content: "";
     background-color: var(--darkcolor);
     width: 100px;
-    height: calc(100% + 150px);
-    top: -35px;
+    height: calc(100% + 180px);
+    top: -50px;
     position: absolute;
     right: -50px;
     z-index: -1;
@@ -279,8 +279,7 @@ header h2 {
 }
 
 #about .img {
-    margin:auto;
-        width: 250px;
+    width: 250px;
     position: relative;
 }
 
@@ -313,7 +312,7 @@ header h2 {
 }
 
 #about .text {
-    width: 60%;
+    width: 55%;
 }
 
 #about .text p:first-child {
@@ -474,8 +473,8 @@ footer span {
         color: var(--darkcolor);
         font-size: 16px;
     }
-    
-        footer {
+
+    footer {
 
         font-size: 14px;
     }

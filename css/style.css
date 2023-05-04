@@ -405,6 +405,7 @@ footer span {
     }
 
     #about .about-container .text p {
+        font-size: 14px;
         line-height: 2em;
     }
 
@@ -419,23 +420,24 @@ footer span {
         font-size: 30px;
         color: var(--maincolor);
     }
-    
-        header p {
+
+    header p {
         font-size: 12px;
     }
 
-        .features .container .feat h3 {
-        font-size: 18px;
+    .features .container .feat h3 {
+        font-size: 20px;
     }
 
     #services p {
         margin: 0;
     }
 
-        #services .service-container {
+    #services .service-container {
         padding: 0 0 50px;
         margin: 0;
     }
+
     #services .service-container .col {
         width: 60%;
         margin: 50px auto;
@@ -448,6 +450,27 @@ footer span {
     #portfolio .card {
         width: 60%;
         margin: 25px auto;
+    }
+
+    #about .about-container .text p {
+        font-size: 12px;
+    }
+
+    #contact h3 {
+
+        font-size: 20px;
+    }
+
+    #contact a {
+
+        font-size: 25px;
+
+    }
+
+    #contact p,
+    #contact i {
+        color: var(--darkcolor);
+        font-size: 16px;
     }
 }
 

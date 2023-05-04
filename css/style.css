@@ -268,7 +268,7 @@ header h2 {
 /* about */
 
 #about {
-    padding: 50px;
+    padding: 50px 50px 0;
 }
 
 #about .about-container {
@@ -281,6 +281,7 @@ header h2 {
 #about .img {
     width: 250px;
     position: relative;
+    height: fit-content;
 }
 
 #about .img img {

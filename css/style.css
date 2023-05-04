@@ -179,7 +179,7 @@ header h2 {
 
 #services {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 0 0;
 }
 
 #services img {
@@ -197,7 +197,7 @@ header h2 {
     content: "";
     background-color: var(--darkcolor);
     width: 100px;
-    height: calc(100% + 180px);
+    height: calc(100% + 100px);
     top: -50px;
     position: absolute;
     right: -50px;
@@ -206,14 +206,14 @@ header h2 {
 
 #services .service-container {
     padding: 50px 0;
-    margin: 50px 0;
+    margin: 50px 0 0;
     display: flex;
     flex-wrap: wrap;
 }
 
 #services .service-container .col {
     width: 30%;
-    height: 400px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -438,7 +438,7 @@ footer span {
     }
 
     #services .service-container {
-        padding: 50px 0 0;
+        padding: 50px 0 20px;
         margin: 0;
     }
 

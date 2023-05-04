@@ -341,9 +341,14 @@ header h2 {
     text-align: center;
 }
 
+#contact .info {
+    padding: 25px;
+}
+
 #contact h3 {
     color: var(--darkcolor);
     font-size: x-large;
+    font-weight: 900;
 }
 
 #contact a {
@@ -358,7 +363,7 @@ header h2 {
 #contact p,
 #contact i {
     color: var(--darkcolor);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 /* footer */
@@ -517,6 +522,27 @@ footer span {
 @media only screen and (min-width: 992px) {
     .container {
         width: 80%;
+    }
+
+    #contact h3 {
+        color: var(--darkcolor);
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    #contact a {
+        text-decoration: none;
+        color: var(--maincolor);
+        font-size: 40px;
+        font-weight: 900;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #contact p,
+    #contact i {
+        color: var(--darkcolor);
+        font-size: 20px;
     }
 }
 

@@ -504,7 +504,16 @@ footer span {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .features .container .feat {
-        width: calc(100%/3);
+        width: 30%;
+    }
+
+    .features .container .feat h3 {
+        font-size: 16px;
+
+    }
+
+    .features .container .feat p {
+        font-size: 14px;
     }
 }
 

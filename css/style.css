@@ -420,6 +420,10 @@ footer span {
         color: var(--maincolor);
     }
     
+        header p {
+        font-size: 12px;
+    }
+
         .features .container .feat h3 {
         font-size: 18px;
     }
@@ -429,7 +433,7 @@ footer span {
     }
 
         #services .service-container {
-        padding: 0;
+        padding: 0 0 50px;
         margin: 0;
     }
     #services .service-container .col {

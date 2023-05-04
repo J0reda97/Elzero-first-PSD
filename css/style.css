@@ -419,6 +419,10 @@ footer span {
         font-size: 30px;
         color: var(--maincolor);
     }
+    
+        .features .container .feat h3 {
+        font-size: 20px;
+    }
 
     #services p {
         margin: 0;

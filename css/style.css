@@ -434,13 +434,13 @@ footer span {
     }
 
     #services .service-container {
-        padding: 0 0 40px;
+        padding: 50px 0 0;
         margin: 0;
     }
 
     #services .service-container .col {
+        height: fit-content;
         width: 60%;
-        margin: 50px auto;
     }
 
     .special-heading {

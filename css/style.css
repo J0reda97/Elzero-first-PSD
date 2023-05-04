@@ -279,7 +279,6 @@ header h2 {
 }
 
 #about .img {
-    margin: auto;
     width: 250px;
     position: relative;
 }
@@ -379,7 +378,9 @@ footer span {
 
 /* Media */
 
-/* Extra small devices (phones, 600px and down) */
+
+
+
 @media only screen and (max-width: 991px) {
     #services .service-container .col {
         width: 45%;
@@ -417,6 +418,7 @@ footer span {
     }
 }
 
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     header h2 {
         font-size: 30px;
@@ -455,6 +457,7 @@ footer span {
     }
 
     #about .img {
+        margin: auto;
         width: 250px !important;
     }
 
@@ -490,30 +493,6 @@ footer span {
     }
 }
 
-/* Scroll */
-
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: #F6F6F6;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: var(--darkcolor);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: var(--maincolor);
-}
-
-
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {}
 
@@ -542,3 +521,25 @@ footer span {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
+
+/* Scroll */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #F6F6F6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--darkcolor);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--maincolor);
+}
